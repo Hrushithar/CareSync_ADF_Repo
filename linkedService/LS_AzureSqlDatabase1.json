@@ -1,0 +1,23 @@
+{
+	"name": "LS_AzureSqlDatabase1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "caresync-serv-27.database.windows.net",
+			"database": "free-sql-db-0341903",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "hrushith",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "metadata-db-password"
+			}
+		}
+	}
+}
