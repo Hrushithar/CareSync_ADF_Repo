@@ -1,0 +1,12 @@
+{
+	"name": "adf-caresync27",
+	"properties": {
+		"globalParameters": {
+			"email_receipent": {
+				"type": "string",
+				"value": "hrushithar27@gmail.com"
+			}
+		}
+	},
+	"location": "indiasouthcentral"
+}
